@@ -20,7 +20,7 @@ type: "numeric"
 
 This simple event only includes 1 parameter, the player's score. This event should be sent each time a player crashes and the Game Over menu is shown to the player. In this example the player got a score of `15`.
 
-(Check with you platform specific docs for the syntax to submit an event)
+(Check with your platform specific docs for the syntax to submit an event)
 
 ```json
 {
@@ -51,7 +51,7 @@ key: "time"
 type: "numeric"
 ```
 
-_Place_ - The position that the player finished the race in (1st, 2nd,...).
+_Place_ - The position in which the player finished the race (1st, 2nd,...).
 
 ```json
 key: "place"
@@ -87,7 +87,7 @@ Here is an example of the event that would be sumbitted at the end of a race.
 
 ### Challenge Definitions
 
-Because the events have more than one parameter it is possible to create multiple challenge definitions for our Kart game. This allows player to choose which type of challenge they want to create.
+Because the events have more than one parameter, it is possible to create multiple challenge definitions for our Kart game. This allows players to choose which types of challenges they want to create.
 
 This challenge allows players to see who can get fastest time.
 
@@ -164,7 +164,7 @@ This challenge allows players to see who can gets the most number of kills in a 
 "function":"maximum"
 ```
 
-You can also use the `total` function to compute a score across multiple events. In this case we will compute the total number of headshots for the entire duration of the challenge. These types are challenge can be very powerful since they encourage your players to play many times instead of just trying to get the best single score possible.
+You can also use the `total` function to compute a score across multiple events. In this case we will compute the total number of headshots for the entire duration of the challenge. These types of challenges can be very powerful since they encourage your players to play many times instead of just trying to get the best single score possible.
 
 ```json
 "title":"Total Headshots",
