@@ -15,13 +15,13 @@ A Stat Definition represents a tracked metric. You may have up to ten Stat Defin
 
 Each Stat Definition consists of:
 
-- **Title** - The title describe the metric and is presented to your players in the Zapic UI. An example would include "High Score".
+- **Title** - The title describes the metric and is presented to your players in the Zapic UI. An example would include "High Score".
 
 - **Parameter** - The name of the event parameter that is used as the value when computing the players' metric. An example would include "SCORE".
 
 - **Function** - The name of the method that is used on the value when computing the players' metric. This may be "Maximum", "Minimum", or "Total".
 
-- **Filters** (Coming Soon) - An optional collection of event parameter values that must be valid for an event to count towards the players' metric. This enables metrics to be scoped to a particular set of contraints. An example would include "CHARACTER equals PRINCESS".
+- **Filters** (Coming Soon) - An optional collection of event parameter values that must be valid for an event to count towards the players' metric. This enables metrics to be scoped to a particular set of constraints. An example would include "CHARACTER equals PRINCESS".
 
 Once you have defined a Stat Definition in the [Zapic Portal](https://portal.zapic.net), players will be able to view their metrics in your game.
 
