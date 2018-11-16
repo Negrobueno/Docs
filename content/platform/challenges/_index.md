@@ -15,10 +15,10 @@ Each Challenge Definition consists of:
 
 - **Title** - The title should describe what the goal of the challenge is. (ex. High Score)
 
-- **Parameter** - Name of the parameter that will used to compute the value for each player. (ex. "score")
+- **Parameter** - Name of the parameter that will be used to compute the value for each player. (ex. "score")
 
 - **Function** - Defines how the value should be computed (Minimum, Maximum, Total)
 
-- **Filters** (Coming Soon) - Collection of parameter filters that must be valid for an event to count towards a user's value. This allows you to scope a challenge to a particular set of contraints. (ex. "character" == "princess" or "level" = 5)
+- **Filters** (Coming Soon) - Collection of parameter filters that must be valid for an event to count towards a user's value. This allows you to scope a challenge to a particular set of constraints. (ex. "character" == "princess" or "level" = 5)
 
 Once you have defined a challenge in the [Zapic Portal](https://portal.zapic.net) players will be able to create a challenge and invite their friends to compete in your game.
